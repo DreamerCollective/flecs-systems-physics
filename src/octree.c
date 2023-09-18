@@ -1,4 +1,4 @@
-#include <flecs-systems-physics/octree.h>
+#include <flecs/flecs-systems-physics/include/flecs-systems-physics/octree.h>
 
 #define MAX_PER_OCTANT (8)
 

@@ -18,11 +18,11 @@
 #define FLECS_SYSTEMS_PHYSICS_BAKE_CONFIG_H
 
 /* Headers of public dependencies */
-#include <flecs.h>
-#include <cglm.h>
-#include <flecs_components_transform.h>
-#include <flecs_components_geometry.h>
-#include <flecs_components_physics.h>
+#include <flecs/flecs-base/flecs.h>
+#include <cglm/include/cglm/cglm.h>
+#include <flecs/flecs-components-transform/include/flecs_components_transform.h>
+#include <flecs/flecs-components-geometry/include/flecs_components_geometry.h>
+#include <flecs/flecs-components-physics/include/flecs_components_physics.h>
 
 /* Convenience macro for exporting symbols */
 #ifndef flecs_systems_physics_STATIC

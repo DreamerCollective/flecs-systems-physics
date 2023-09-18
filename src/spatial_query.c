@@ -1,4 +1,4 @@
-#include <flecs_systems_physics.h>
+#include <flecs/flecs-systems-physics/include/flecs_systems_physics.h>
 
 struct ecs_squery_t {
     ecs_query_t *q;

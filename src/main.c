@@ -1,5 +1,5 @@
 #define FLECS_SYSTEMS_PHYSICS_IMPL
-#include <flecs_systems_physics.h>
+#include <flecs/flecs-systems-physics/include/flecs_systems_physics.h>
 
 ECS_CTOR(EcsSpatialQuery, ptr, {
     ptr->query = NULL;
